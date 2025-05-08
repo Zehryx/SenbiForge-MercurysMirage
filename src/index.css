@@ -2,71 +2,119 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Mercury's Mirage CSS Theme */
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  /* Core Color Palette */
+  --color-navy: #0D1B2A;
+  --color-obsidian: #1B1B1B;
+  --color-silver: #C0C0C0;
+  --color-gold: #D4AF37;
+  --color-gray-light: #E5E5E5;
+  --color-teal: #3FBAC2;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* Typography */
+  --font-serif: 'EB Garamond', serif;
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'Space Mono', monospace;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+  /* Effects */
+  --shadow-glow: 0 0 15px rgba(63, 186, 194, 0.3);
+  --blur-glass: blur(12px);
 }
 
 body {
+  background-color: var(--color-navy);
+  color: var(--color-silver);
+  font-family: var(--font-sans);
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-serif);
+  color: var(--color-silver);
 }
 
-button {
+a {
+  color: var(--color-teal);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-gold);
+}
+
+.button {
+  background: linear-gradient(145deg, var(--color-silver), var(--color-gold));
+  border: none;
+  color: var(--color-obsidian);
+  font-weight: 600;
+  padding: 0.75em 1.5em;
   border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  box-shadow: var(--shadow-glow);
+  transition: background 0.3s ease;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+.button:hover {
+  background: linear-gradient(145deg, var(--color-gold), var(--color-silver));
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: var(--blur-glass);
+  border: 1px solid var(--color-silver);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: var(--shadow-glow);
+  color: var(--color-silver);
+}
+
+.mirage-gradient {
+  background: linear-gradient(120deg, var(--color-navy), var(--color-obsidian), var(--color-teal));
+  background-size: 400% 400%;
+  animation: mirageFlow 15s ease infinite;
+}
+
+@keyframes mirageFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.navbar {
+  background-color: var(--color-obsidian);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--color-silver);
+}
+
+.footer {
+  background-color: var(--color-obsidian);
+  color: var(--color-gray-light);
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.875rem;
+  border-top: 1px solid var(--color-silver);
+}
+
+.text-accent {
+  color: var(--color-gold);
+  font-family: var(--font-mono);
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
   }
-  a:hover {
-    color: #747bff;
+  h2 {
+    font-size: 1.5rem;
   }
-  button {
-    background-color: #f9f9f9;
+  body {
+    font-size: 1rem;
   }
 }
