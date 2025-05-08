@@ -1,0 +1,1 @@
+const e=[{productId:"p002-1",name:"Phose case",price:"$240",image:"https://via.placeholder.com/300x400?text=Rose+Empress",link:"https://example.com/product/rose-empress"},{productId:"p002-2",name:"Swag pants",price:"$180",image:"https://via.placeholder.com/300x400?text=Golden+Cape",link:"https://example.com/product/golden-bloom"}];export{e as default};
