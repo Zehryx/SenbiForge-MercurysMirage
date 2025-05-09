@@ -9,7 +9,7 @@ export default {
       },
       fontFamily: {
         // Replace these names with whatever your font files are called
-        title:     ['"YourTitleFont"', 'serif'],
+        title:     ['EB Garamond', 'serif'],
         inter:     ['Inter', 'sans-serif'],
         'space-mono': ['"Space Mono"', 'monospace'],
       },

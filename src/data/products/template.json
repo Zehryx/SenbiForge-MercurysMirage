@@ -2,6 +2,23 @@
   {
     "details": {
       "productId": "42275023913021",
+      "name": "Zoro Phone Case",
+      "price": "$54",
+      "collection" : "One Piece",
+      "image": {
+        "imagelink": "",
+        "imagefile": "/SenbiForge-MercurysMirage/assets/brandimages/002/zoro-phone-case.png"
+      },
+      "link": "https://tsukiyashop.com/products/zoro-phone-case"
+    },
+    "productTags": [],
+    "productShape": {},
+    "styleTags": [],
+    "styleValue": {}
+  },
+  {
+    "details": {
+      "productId": "42275023913021",
       "name": "The Juliette Dress",
       "price": "$265",
       "collection" : "A Taste of Spring",
@@ -11,7 +28,7 @@
       },
       "link": "https://www.wildroseandsparrow.com/collections/a-taste-of-spring-collection/products/the-juliette-dress"
     },
-    "productTags": ["dress"],
+    "productTags": [],
     "productType": {
       "dress": {
         "length": "long",
@@ -35,7 +52,8 @@
         "width": "medium",
         "tightness": "loose",
         "shape": ["a-line", "circle"]
-      }
+      },
+      "phone-case": {}
     },
     "styleTags": ["fairy"],
     "styleType": {

@@ -1,44 +1,139 @@
 [
   {
     "details": {
-      "productId": "42275023913021",
+      "productId": "48761559417119",
       "name": "Zoro Phone Case",
       "price": "$54",
       "collection" : "One Piece",
       "image": {
         "imagelink": "",
-        "imagefile": "/SenbiForge-MercurysMirage/assets/brandimages/002/zorophonecase.png"
+        "imagefile": "/SenbiForge-MercurysMirage/assets/brandimages/002/zoro-phone-case.png"
       },
       "link": "https://tsukiyashop.com/products/zoro-phone-case"
     },
-    "productTags": ["phone case"],
-    "productShape": {
-      "top": {
-        "length": "short",
-        "width": "medium",
-        "tightness": "tight",
-        "neckline": ["halter", "sweetheart"],
-        "sleeves": "none",
-        "waist": "defined"
+    "productTags": [],
+    "productShape": {"phone-case": {}},
+    "styleTags": [],
+    "styleValue": {}
+  },
+  {
+    "details": {
+      "productId": "48904047558943",
+      "name": "Luffy Gear 5 Phone Case",
+      "price": "$54",
+      "collection" : "One Piece",
+      "image": {
+        "imagelink": "",
+        "imagefile": "/SenbiForge-MercurysMirage/assets/brandimages/002/zoro-phone-case.png"
       },
-      "bottom": {
-        "length": "long",
-        "width": "medium",
-        "tightness": "loose",
-        "shape": ["a-line", "circle"]
-      }
+      "link": "https://tsukiyashop.com/products/luffy-phone-case-iphone"
     },
-    "styleTags": ["fairy"],
-    "styleValue": {
-      "formality": 0,
-      "mountain": 0,
-      "stone": 0,
-      "mushroom": 0,
-      "flower": 0,
-      "fire": 0,
-      "earth": 0,
-      "sun": 0,
-      "moon": 0
-    }
+    "productTags": [],
+    "productShape": {"phone-case": {}},
+    "styleTags": [],
+    "styleValue": {}
+  },
+  {
+    "details": {
+      "productId": "9489101259039",
+      "name": "Luffy Manga Gear 5 Phone Case",
+      "price": "$54",
+      "collection" : "One Piece",
+      "image": {
+        "imagelink": "",
+        "imagefile": "/SenbiForge-MercurysMirage/assets/brandimages/002/luffy-one-piece-gear-5-anime-phone-case.png"
+      },
+      "link": "https://tsukiyashop.com/products/luffy-one-piece-gear-5-anime-phone-case"
+    },
+    "productTags": [],
+    "productShape": {"phone-case": {}},
+    "styleTags": [],
+    "styleValue": {}
+  },
+  {
+    "details": {
+      "productId": "9495406936351",
+      "name": "Luffy Bounty Gear 5 Phone Case",
+      "price": "$54",
+      "collection" : "One Piece",
+      "image": {
+        "imagelink": "",
+        "imagefile": "/SenbiForge-MercurysMirage/assets/brandimages/002/luffy-one-piece-gear-5-anime-phone-case-3.png"
+      },
+      "link": "https://tsukiyashop.com/products/luffy-one-piece-gear-5-anime-phone-case-3"
+    },
+    "productTags": [],
+    "productShape": {"phone-case": {}},
+    "styleTags": [],
+    "styleValue": {}
+  },
+  {
+    "details": {
+      "productId": "9404957294879",
+      "name": "Ace Phone Case",
+      "price": "$54",
+      "collection" : "One Piece",
+      "image": {
+        "imagelink": "",
+        "imagefile": "/SenbiForge-MercurysMirage/assets/brandimages/002/ace-one-piece-anime-phone-case-magsafe-option.png"
+      },
+      "link": "https://tsukiyashop.com/products/ace-one-piece-anime-phone-case-magsafe-option"
+    },
+    "productTags": [],
+    "productShape": {"phone-case": {}},
+    "styleTags": [],
+    "styleValue": {}
+  },
+  {
+    "details": {
+      "productId": "9557997617439",
+      "name": "Trafalgar D Law Phone Case",
+      "price": "$54",
+      "collection" : "One Piece",
+      "image": {
+        "imagelink": "",
+        "imagefile": "/SenbiForge-MercurysMirage/assets/brandimages/002/trafalgar-d-law-onepiece-anime-phone-case.png"
+      },
+      "link": "https://tsukiyashop.com/products/trafalgar-d-law-onepiece-anime-phone-case"
+    },
+    "productTags": [],
+    "productShape": {"phone-case": {}},
+    "styleTags": [],
+    "styleValue": {}
+  },
+  {
+    "details": {
+      "productId": "9315365126431",
+      "name": "Zhong Li Phone Case",
+      "price": "$54",
+      "collection" : "Genshin Impact",
+      "image": {
+        "imagelink": "",
+        "imagefile": "/SenbiForge-MercurysMirage/assets/brandimages/002/zhong-li-phone-case.png"
+      },
+      "link": "https://tsukiyashop.com/products/phone-case-iphone-2"
+    },
+    "productTags": [],
+    "productShape": {"phone-case": {}},
+    "styleTags": [],
+    "styleValue": {}
+  },
+  {
+    "details": {
+      "productId": "10088171667743",
+      "name": "Violet Evergaden Phone Case",
+      "price": "$54",
+      "collection" : "Genshin Impact",
+      "image": {
+        "imagelink": "",
+        "imagefile": "/SenbiForge-MercurysMirage/assets/brandimages/002/violet-evergarden-phone-case.png"
+      },
+      "link": "https://tsukiyashop.com/products/violet-evergarden-anime-phone-case"
+    },
+    "productTags": [],
+    "productShape": {"phone-case": {}},
+    "styleTags": [],
+    "styleValue": {}
   }
 ]
+
