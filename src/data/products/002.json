@@ -1,16 +1,44 @@
 [
   {
-    "productId": "p002-1",
-    "name": "Phose case",
-    "price": "$240",
-    "image": "https://via.placeholder.com/300x400?text=Rose+Empress",
-    "link": "https://example.com/product/rose-empress"
-  },
-  {
-    "productId": "p002-2",
-    "name": "Swag pants",
-    "price": "$180",
-    "image": "https://via.placeholder.com/300x400?text=Golden+Cape",
-    "link": "https://example.com/product/golden-bloom"
+    "details": {
+      "productId": "42275023913021",
+      "name": "Zoro Phone Case",
+      "price": "$54",
+      "collection" : "One Piece",
+      "image": {
+        "imagelink": "",
+        "imagefile": "/SenbiForge-MercurysMirage/assets/brandimages/002/zorophonecase.png"
+      },
+      "link": "https://tsukiyashop.com/products/zoro-phone-case"
+    },
+    "productTags": ["phone case"],
+    "productShape": {
+      "top": {
+        "length": "short",
+        "width": "medium",
+        "tightness": "tight",
+        "neckline": ["halter", "sweetheart"],
+        "sleeves": "none",
+        "waist": "defined"
+      },
+      "bottom": {
+        "length": "long",
+        "width": "medium",
+        "tightness": "loose",
+        "shape": ["a-line", "circle"]
+      }
+    },
+    "styleTags": ["fairy"],
+    "styleValue": {
+      "formality": 0,
+      "mountain": 0,
+      "stone": 0,
+      "mushroom": 0,
+      "flower": 0,
+      "fire": 0,
+      "earth": 0,
+      "sun": 0,
+      "moon": 0
+    }
   }
 ]

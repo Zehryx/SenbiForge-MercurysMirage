@@ -1,16 +1,60 @@
 [
   {
-    "productId": "p001-1",
-    "name": "Rose Empress Dress",
-    "price": "$240",
-    "image": "https://via.placeholder.com/300x400?text=Rose+Empress",
-    "link": "https://example.com/product/rose-empress"
+    "details": {
+      "productId": "42274999468093",
+      "name": "The Sylph Gown",
+      "price": "$280",
+      "collection" : "A Taste of Spring",
+      "image": {
+        "imagelink": "https://www.wildroseandsparrow.com/cdn/shop/files/IMG_8295.jpg?v=1744728775",
+        "imagefile": ""
+      },
+      "link": "https://www.wildroseandsparrow.com/collections/a-taste-of-spring-collection/products/the-sylph-gown"
+    },
+    "productTags": ["dress"],
+    "productType": {
+      "dress": {
+        "length": "long",
+        "width": "medium",
+        "tightness": "tight",
+        "neckline": ["halter", "sweetheart"],
+        "sleeves": "none",
+        "waist": "defined",
+        "shape": ["a-line", "circle"]
+      }
+    },
+    "styleTags": ["fairy"],
+    "styleType": {
+      "formality": 0
+    }
   },
   {
-    "productId": "p001-2",
-    "name": "Golden Bloom Cape",
-    "price": "$180",
-    "image": "https://via.placeholder.com/300x400?text=Golden+Cape",
-    "link": "https://example.com/product/golden-bloom"
+    "details": {
+      "productId": "42275023913021",
+      "name": "The Juliette Dress",
+      "price": "$265",
+      "collection" : "A Taste of Spring",
+      "image": {
+        "imagelink": "https://www.wildroseandsparrow.com/cdn/shop/files/IMG_7443-2.jpg?v=1744727420",
+        "imagefile": ""
+      },
+      "link": "https://www.wildroseandsparrow.com/collections/a-taste-of-spring-collection/products/the-juliette-dress"
+    },
+    "productTags": ["dress"],
+    "productType": {
+      "dress": {
+        "length": "long",
+        "width": "medium",
+        "tightness": "tight",
+        "neckline": ["halter", "sweetheart"],
+        "sleeves": "none",
+        "waist": "defined",
+        "shape": ["a-line", "circle"]
+      }
+    },
+    "styleTags": ["fairy"],
+    "styleType": {
+      "formality": 0
+    }
   }
 ]
