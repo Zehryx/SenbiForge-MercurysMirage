@@ -11,7 +11,7 @@
       },
       "link": "https://tsukiyashop.com/products/zoro-phone-case"
     },
-    "productTags": [],
+    "productTags": ["One Piece"],
     "productShape": {"phone-case": {}},
     "styleTags": [],
     "styleValue": {}
@@ -24,11 +24,11 @@
       "collection" : "One Piece",
       "image": {
         "imagelink": "",
-        "imagefile": "/SenbiForge-MercurysMirage/assets/brandimages/002/zoro-phone-case.png"
+        "imagefile": "/SenbiForge-MercurysMirage/assets/brandimages/002/luffy-phone-case-iphone.png"
       },
       "link": "https://tsukiyashop.com/products/luffy-phone-case-iphone"
     },
-    "productTags": [],
+    "productTags": ["One Piece"],
     "productShape": {"phone-case": {}},
     "styleTags": [],
     "styleValue": {}
@@ -45,7 +45,7 @@
       },
       "link": "https://tsukiyashop.com/products/luffy-one-piece-gear-5-anime-phone-case"
     },
-    "productTags": [],
+    "productTags": ["One Piece"],
     "productShape": {"phone-case": {}},
     "styleTags": [],
     "styleValue": {}
@@ -62,7 +62,7 @@
       },
       "link": "https://tsukiyashop.com/products/luffy-one-piece-gear-5-anime-phone-case-3"
     },
-    "productTags": [],
+    "productTags": ["One Piece"],
     "productShape": {"phone-case": {}},
     "styleTags": [],
     "styleValue": {}
@@ -79,7 +79,7 @@
       },
       "link": "https://tsukiyashop.com/products/ace-one-piece-anime-phone-case-magsafe-option"
     },
-    "productTags": [],
+    "productTags": ["One Piece"],
     "productShape": {"phone-case": {}},
     "styleTags": [],
     "styleValue": {}
@@ -96,7 +96,7 @@
       },
       "link": "https://tsukiyashop.com/products/trafalgar-d-law-onepiece-anime-phone-case"
     },
-    "productTags": [],
+    "productTags": ["One Piece"],
     "productShape": {"phone-case": {}},
     "styleTags": [],
     "styleValue": {}
@@ -113,7 +113,7 @@
       },
       "link": "https://tsukiyashop.com/products/phone-case-iphone-2"
     },
-    "productTags": [],
+    "productTags": ["Genshin Impact"],
     "productShape": {"phone-case": {}},
     "styleTags": [],
     "styleValue": {}
@@ -121,16 +121,16 @@
   {
     "details": {
       "productId": "10088171667743",
-      "name": "Violet Evergaden Phone Case",
+      "name": "Violet Evergarden Phone Case",
       "price": "$54",
-      "collection" : "Genshin Impact",
+      "collection" : "Violet Evergarden",
       "image": {
         "imagelink": "",
         "imagefile": "/SenbiForge-MercurysMirage/assets/brandimages/002/violet-evergarden-phone-case.png"
       },
       "link": "https://tsukiyashop.com/products/violet-evergarden-anime-phone-case"
     },
-    "productTags": [],
+    "productTags": ["Violet Evergarden"],
     "productShape": {"phone-case": {}},
     "styleTags": [],
     "styleValue": {}
