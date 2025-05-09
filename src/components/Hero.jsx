@@ -49,11 +49,11 @@ export default function HeroSection() {
         <h1 className="font-title text-5xl md:text-7xl text-gold drop-shadow-lg">
           MERCURY’S MIRAGE
         </h1>
-        <p className="mt-4 font-inter italic text-xl text-white">
+        <p className="mt-4 font-mono italic text-xl text-white">
           drape your reality
         </p>
         <button
-          className="mt-8 px-8 py-3 font-space-mono uppercase tracking-wider border border-white 
+          className="mt-8 px-8 py-3 font-mono uppercase tracking-wider border border-white 
                      text-white hover:bg-white hover:text-black transition duration-300"
         >
           discover

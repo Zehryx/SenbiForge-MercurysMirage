@@ -125,6 +125,11 @@ a:hover {
   font-weight: 700;
 }
 
+.font-inter {
+  /*font-family: 'Inter', sans-serif;*/
+  font-weight: 400;
+}
+
 .font-mono {
   font-family: 'Space Mono', monospace;
   font-weight: 400;
